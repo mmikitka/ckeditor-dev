@@ -167,7 +167,7 @@
 						if ( style.checkApplicable( elementPath, editor.activeFilter ) )
 							return;
 					}
-					this.setState( CKEDITOR.TRISTATE_DISABLED );
+					this.setState( CKEDITOR.TRISTATE_OFF );
 				},
 
 				// Force a reload of the data
